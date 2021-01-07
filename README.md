@@ -10,12 +10,12 @@ Online Assessment for Infrastructure Engineer codemi
 You can done this step with 2 method:
 
 - First
-    docker build -t image_name .
+   -- docker build -t image_name .
     
 - Second
-    push change to repository and jenkins will create docker image for you.
-    Here is the docker hub link: https://hub.docker.com/r/dwifprasetyo/jenkins-test
-    Here is the link for jenkins pipelines: https://jenkins.gomeraki.co/job/Codemi-Test-IE/
+    -- push change to repository and jenkins will create docker image for you.
+    -- Here is the docker hub link: https://hub.docker.com/r/dwifprasetyo/jenkins-test
+    -- Here is the link for jenkins pipelines: https://jenkins.gomeraki.co/job/Codemi-Test-IE/
 
 
 ## Kubernetes manifest
