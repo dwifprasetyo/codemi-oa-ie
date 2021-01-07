@@ -9,7 +9,8 @@ You can done this step with 2 method:
     
 - Second
     push change to repository and jenkins will create docker image for you.
-    Here is the docker hub link : https://hub.docker.com/r/dwifprasetyo/jenkins-test
+    Here is the docker hub link: https://hub.docker.com/r/dwifprasetyo/jenkins-test
+    Here is the link for jenkins pipelines: https://jenkins.gomeraki.co/job/Codemi-Test-IE/
 
 
 ## Kubernetes manifest
