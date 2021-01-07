@@ -33,6 +33,9 @@ kubectl expose deployment ping-pong-app --type=NodePort --port=80
 ### Get URL
 minikube service ping-pong-app
 
+### Set Horizontal Pod Autoscalling
+kubectl apply -f ping-pong-app-hpa.yaml
+
 
 note: this kubernetes step maybe different if you use gke or eks, i'm using minikube and kubectl to run kubernetes on my local machine
 
