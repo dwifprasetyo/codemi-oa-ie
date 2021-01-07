@@ -1,6 +1,11 @@
 # codemi-oa-ie
 Online Assessment for Infrastructure Engineer codemi
 
+# About this app
+* This app is a simple app that return respons "pong" when you type http://your_ip/ping in your browser
+
+
+
 ## Create docker image 
 You can done this step with 2 method:
 
