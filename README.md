@@ -10,13 +10,24 @@ You can done this step with 2 method:
 - Second
     push change to repository and jenkins will create docker image for you
 
+
 ## Kubernetes manifest
 
 ### Create deployment 
 kubectl apply -f /kubernetes-manifest/ping-pong-app.yaml
 
+note: you must change the image who used in kubernetes manifest if you use the first steps on "Create docker image"
+
 ### Check deployment status
 Run "kubectl get deployments" to check if the Deployment was created.
+
+### Create Service
+kubectl expose deployment ping-pong-app --type=NodePort --port=80
+
+### Get URL
+minikube service ping-pong-app
+
+
 
 
 
