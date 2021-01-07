@@ -28,7 +28,7 @@ kubectl expose deployment ping-pong-app --type=NodePort --port=80
 minikube service ping-pong-app
 
 
-note: this step maybe different if you use gke or eks, i'm using minikube and kubectl to run kubernetes on my local machine
+note: this kubernetes step maybe different if you use gke or eks, i'm using minikube and kubectl to run kubernetes on my local machine
 
 
 
